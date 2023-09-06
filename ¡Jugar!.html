@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Ruleta Superagro</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form" method="post">
+            <h1>¡Pruebe su suerte con Superagro!</h1>
+            </form>
+    <div class="mainbox" id="mainbox">
+        <div class="box" id="box">
+            <div class="box1">
+                <span class="font span1" data-probability="0.8"><h5>Balde anysand</h5></span>
+                <span class="font span2" data-probability="0.8"><h5>Jarra luna</h5></span>
+                <span class="font span3" data-probability="0.30"><h5>Siga intentando</h5></span>
+                <span class="font span4" data-probability="0.1"><h5>Botas de caucho</h5></span>
+                <span class="font span5" data-probability="0.8"><h5>Porta comida</h5></span>
+            </div>
+            <div class="box2">
+                <span class="font span1" data-probability="0.30"><h5>Siga intentado</h5></span>
+                <span class="font span2" data-probability="0.1"><h5>Juego de vajilla</h5></span>
+                <span class="font span3" data-probability="0.1"><h5>Juego de vasos</h5></span>
+                <span class="font span4" data-probability="0.8"><h5>Siga intentando</h5></span>
+                <span class="font span5" data-probability="0.8"><h5>Esfero</h5></span>
+            </div>
+        </div>
+        <button class="Girar" onclick="Girar()">Girar</button>
+    </div>
+    <audio
+    controls="controls"
+    id="Aplausos"    
+    src="./Audios/Aplausos.mp3"
+    type="audio/mp3"
+    ></audio>
+    <audio
+    controls="controls"
+    id="Giro"    
+    src="./Audios/giro ruleta.mp3"
+    type="audio/mp3"
+    ></audio>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <Script src="Scrip.js"></Script>
+    <ul>
+        <li><a href="paginas/index.html"></a></li>
+    </ul>
+
+    </body>
+</html>
